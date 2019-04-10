@@ -1,4 +1,5 @@
 #__Guessing Game Challenge__
+
 Let's use while loops to create a guessing game.
 ##The Challenge:
 
