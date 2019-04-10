@@ -1,0 +1,34 @@
+#project guess game... Uses Python3.7 and random. 
+
+import random
+num = random.randint(1,100)
+print(num)
+guesses=[0]
+guess_count=0
+print("WELCOME TO GUESS GAME!")
+print("If your guess is more than 10 away from my number, I'll tell you you're FAR")
+print("If your guess is within 10 of my number, I'll tell you you're NEAR")
+print("If your guess is farther than your most recent guess, I'll say you're getting FARTHER")
+print("If your guess is closer than your most recent guess, I'll say you're getting NEARER")
+print("LET'S PLAY!")
+while True:
+    guess = int(input("Guess A Number between 1 and 100: "))
+    guess_count +=1
+    if guess<1 or guess>100:
+        print("OUT OF BOUND")
+        continue
+    if guess == num:
+        print(f'Congrats!, You won in {guess_count} times')
+        break
+    guesses.append(guess)
+    if guesses[-2]:  
+        if abs(num-guess) < abs(num-guesses[-2]):
+            print('Nearer!')
+        else:
+            print('farther!')
+   
+    else:
+        if abs(num-guess) <= 10:
+            print('NEAR!')
+        else:
+            print('FAR!')        
