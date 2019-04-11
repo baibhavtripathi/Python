@@ -3,20 +3,20 @@
 Let's use while loops to create a guessing game.
 >The Challenge:
 
--[]Write a program that picks a random integer from 1 to 100, and has players guess the number. The rules are:
+-[x]Write a program that picks a random integer from 1 to 100, and has players guess the number. The rules are:
 
--[]If a player's guess is less than 1 or greater than 100, say "OUT OF BOUNDS"
+-[x]If a player's guess is less than 1 or greater than 100, say "OUT OF BOUNDS"
 
--[]On a player's first turn, if their guess is
+-[x]On a player's first turn, if their guess is
 
--[]within 10 of the number, return "NEAR!"
+-[x]within 10 of the number, return "NEAR!"
 
--[]further than 10 away from the number, return "FAR!"
+-[x]further than 10 away from the number, return "FAR!"
 
--[]On all subsequent turns, if a guess is
+-[x]On all subsequent turns, if a guess is
 
--[]closer to the number than the previous guess return "NEARER!"
+-[x]closer to the number than the previous guess return "NEARER!"
 
--[]farther from the number than the previous guess, return "FARTHER!"
+-[x]farther from the number than the previous guess, return "FARTHER!"
 
--[]When the player's guess equals the number, tell them they've guessed correctly and how many guesses it took!
+-[x]When the player's guess equals the number, tell them they've guessed correctly and how many guesses it took!
