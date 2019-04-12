@@ -1,6 +1,8 @@
-#Tic Tac Toe Game using Python3.7
+# Tic Tac Toe Game using Python3.7
 
-##Caution :: THIS GAME IS BASED ON NUMPAD STYLE i.e. | 7 8 9 | | 4 5 6 | | 1 2 3 |
+## Caution :: THIS GAME IS BASED ON NUMPAD STYLE i.e. | 7 8 9 |
+##                                                    | 4 5 6 | 
+##                                                    | 1 2 3 |
 
 To clear the screen between moves:
 >'from IPython.display import clear_output'
