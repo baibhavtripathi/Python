@@ -21,7 +21,6 @@ def menu():
         elif user_input == 'f':
             find_movie()
         user_input  = input("Enter 'a' to add a movie, 'l' to see movie list, 'f' to find a movie, and 'q' to quit.")  
-
     else:
         print('Thank You :)')
 
